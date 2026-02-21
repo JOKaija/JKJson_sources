@@ -573,7 +573,7 @@ void JKJson::printPrettyJson(const char* json, Print& out, uint8_t indentSpaces)
         default: out.print(c); break;
         }
     }
-    out.print("\r\n}");
+    
 
 }
 

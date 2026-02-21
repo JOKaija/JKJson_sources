@@ -19,6 +19,7 @@ void setup()
 	json.clear(); // Not necessary required, but good method
 	json.beginObject();
 	json.addItem(F("HouseINTemp"), 23);
+	json.endObject();
 	json.finalize();
 
 	Serial.println(json.size());
